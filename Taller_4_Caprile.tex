@@ -1,0 +1,222 @@
+\documentclass[11pt]{article}  % Define la clase del documento.
+
+% Paquetes de idioma y codificación
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{tabularx}
+
+\usepackage{caption}
+\usepackage{subcaption}
+
+% Geometría
+\usepackage[letterpaper, margin=3cm]{geometry}
+
+\usepackage[spanish]{babel}
+\addto\captionsspanish{%
+  \renewcommand{\tablename}{Tabla}%
+  \renewcommand{\figurename}{Figura}%
+}
+
+% Tipografía
+\usepackage{mathptmx}
+\usepackage{microtype}
+
+% Gráficos y colores
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{multirow}
+
+% Hipervínculos
+\usepackage{hyperref}
+\definecolor{darkblue}{rgb}{0.0, 0.0, 0.55}
+\hypersetup{
+    colorlinks   = true,
+    linkcolor    = darkblue,
+    citecolor    = black,
+    filecolor    = blue,
+    urlcolor     = blue
+}
+
+\usepackage{media9}
+
+% Tablas y flotantes
+\usepackage{booktabs}
+\usepackage{float}
+
+% Listados (opcional)
+\usepackage{listings}
+\definecolor{codegreen}{rgb}{0.25, 0.49, 0.48}
+\definecolor{codegray}{rgb}{0.5, 0.5, 0.5}
+\definecolor{codepurple}{rgb}{0.58, 0, 0.82}
+\definecolor{backcolour}{rgb}{0.95, 0.95, 0.92}
+\lstset{
+    literate=
+    {á}{{\'a}}1 {é}{{\'e}}1 {í}{{\'i}}1 {ó}{{\'o}}1 {ú}{{\'u}}1
+    {Á}{{\'A}}1 {É}{{\'E}}1 {Í}{{\'I}}1 {Ó}{{\'O}}1 {Ú}{{\'U}}1
+    {ñ}{{\~n}}1 {Ñ}{{\~N}}1 {ü}{{\"u}}1 {Ü}{{\"U}}1,
+    backgroundcolor=\color{backcolour},
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{codepurple},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{red},
+    basicstyle=\ttfamily\small,
+    breaklines=true,
+    captionpos=b,
+    numbers=left,
+    numbersep=5pt,
+    showstringspaces=false,
+    tabsize=2,
+    language=TeX,
+    frame=single,
+    rulecolor=\color{black}
+}
+
+% Párrafo y matemáticas
+\usepackage{amsmath}
+\usepackage{parskip}
+\usepackage{ragged2e}
+\usepackage{multicol}
+
+% Encabezados y pies
+\usepackage{titlesec}
+\titleclass{\part}{top}
+\titleformat{\part}[display]
+  {\normalfont\huge\centering}{\thepart}{40pt}{\Huge}
+\titlespacing*{\part}{0pt}{-60pt}{10pt}
+\titleformat{\part}
+  {\normalfont\huge}{}{0pt}{}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\raisebox{0.20cm}{Tecnologías del Hormigón}}
+\fancyhead[R]{\raisebox{0.1cm}{\includegraphics[width=0.25\linewidth]{LOGO_UNIVERSIDAD.jpg}}}
+\fancyhead[C]{\rule{\textwidth}{0.6pt}}
+\fancyfoot[C]{\rule{\textwidth}{0.6pt}}
+\fancyfoot[R]{\raisebox{-1.5\baselineskip}{\thepage}}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\geometry{
+  top=3.5cm,
+  bottom=2.5cm,
+  headheight=2.5cm
+}
+
+% Bibliografía
+\usepackage{natbib}
+\bibliographystyle{unsrtnat}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+% PORTADA
+%----------------------------------------------------------------------------------------
+\begin{titlepage}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\centering
+\includegraphics[width=10cm]{LOGO_UNIVERSIDAD.jpg}\\[3cm]
+\HRule \\[0.4cm]
+{\huge Tecnologías del Hormigón}\\[0.4cm]
+{\huge Taller 4: Hormigón Autocompactante - Segunda parte}\\[0.4cm]
+\HRule \\[1.5cm]
+\vspace{5cm}
+\begin{flushright}
+Profesor:\\
+Álvaro Paul\\
+Alumnos:\\
+Bernardo Caprile\\
+Pedro Valenzuela\\
+\end{flushright}
+\vspace{1cm}
+{\large \today}\\[2cm]
+\end{titlepage}
+
+\newpage
+\thispagestyle{empty}
+
+%----------------------------------------------------------------------------------------
+% INICIO DEL INFORME
+%----------------------------------------------------------------------------------------
+\setcounter{page}{1}
+
+\section{Desarrollo}
+\subsection*{Pregunta 1}
+\subsubsection*{Inciso a)}
+De la tabla 1 del enunciado se pueden obtener los siguientes parámetros importantes:
+\begin{table}[h]
+\centering
+  \begin{tabular}{ccc}
+  \hline
+  \textbf{Parámetro} & \textbf{Hormigón 1} & \textbf{Hormigón 2}  \\ \hline
+  w/c & 0.4 & 0.51  \\ \hline
+  Aridos finos & 53 \% & 42\%  \\ \hline
+  Aditivo reductor de agua & 1.25\% & 0.45\% \\ \hline
+  \end{tabular}
+\end{table}
+
+Luego ocupando la tabla 4.2 del ACI 237R-07 [1] se pueden obtener los siguientes rangos para cada parámetro:
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.6\linewidth]{Tabla4.2.1.png}
+  \caption{Rangos recomendados para los parámetros del hormigón autocompactante según ACI 237R-07 [1].}
+  \label{tabla_scc}
+\end{figure}
+
+Con la tabla \ref{tabla_scc}, se puede observar que el hormigón 1 cumple con todos los parámetros recomendados para ser considerado un hormigón autocompactante, mientras que el hormigón 2 no cumple con el contenido de áridos finos ni con la cantidad de aditivo reductor de agua. Además, el homrigón 2 tiene una cantidad de aditivo reductor de agua muy baja, lo que puede afectar negativamente sus propiedades de fluidez y cohesión.
+
+
+\subsubsection*{b) Propiedades en estado fresco}
+
+Las diferencias entre ambas mezclas afectan directamente su comportamiento en estado fresco. El Hormigón 1 tiene más cemento, más finos y mayor dosis de aditivo reductor, lo que genera una pasta más abundante y fluida. Esto mejora su trabajabilidad, permitiendo que el hormigón fluya y llene moldajes con facilidad, e incluso favorece la autocompactación sin necesidad de vibración intensa. Además, el mayor contenido de finos le entrega cohesión, reduciendo la segregación y manteniendo la mezcla estable durante el vertido.
+
+En cambio, el Hormigón 2 contiene más árido grueso, menos pasta y una menor dosificación de aditivo. Esto produce una mezcla más rígida y menos fluida, que depende fuertemente de la vibración para acomodarse. Su menor cohesión aumenta el riesgo de segregación o exudación si no se controla bien el proceso de colocación.
+
+\subsubsection*{c) Propiedades en estado endurecido}
+
+En el estado endurecido, el Hormigón 1 presenta mejores condiciones para obtener mayor resistencia y durabilidad, principalmente por su menor relación agua/cemento y su capacidad de compactarse de forma más uniforme. Esto genera una pasta más densa, con menos poros y mejor protección frente a agentes agresivos. 
+
+Por su parte, el Hormigón 2, al tener una relación agua/cemento más alta y depender de la vibración, tiende a presentar una resistencia menor y una durabilidad reducida si no se compacta correctamente. El mayor contenido de árido grueso puede aumentar su módulo de elasticidad en comparación con una mezcla más rica en pasta, pero la presencia de vacíos o mala compactación puede contrarrestar este beneficio. En términos de densidad, el Hormigón 2 debería ser más pesado por su mayor contenido de árido, aunque esto depende de la calidad de la compactación alcanzada en obra.
+
+
+\subsection*{Pregunta 2}
+
+
+\subsection*{Pregunta 3}
+El hormigón autocompactante (HAC) presenta un costo directo por metro cúbico superior al hormigón tradicional debido a su mayor contenido de finos, aditivos de hiper plastificantes y mayores exigencias de control durante la producción. Sin embargo, este mayor costo inicial suele compensarse mediante reducciones significativas en los costos indirectos y en los tiempos de ejecución en obra. El hormigón tradicional requiere mano de obra especializada para la vibración, un mayor número de operarios y equipos, así como ciclos de trabajo más largos para asegurar una compactación adecuada. En cambio, el HAC elimina la necesidad de vibrado, lo que reduce costos de operación, tiempos de colocación y desgaste de equipos. Además, su excelente fluidez mejora la terminación superficial y reduce reparaciones posteriores asociadas a oquedades, nidos de grava o segregación.
+
+En términos de productividad, el HAC permite un vertido más rápido y continuo, disminuye cuellos de botella asociados a la vibración y reduce la fatiga del personal, aumentando la seguridad en obra. También mejora la sostenibilidad al disminuir el ruido, el consumo energético de equipos de vibrado y la probabilidad de retrabajos. Por el contrario, el hormigón tradicional, aunque más económico en materiales, presenta mayores riesgos de fallas de compactación, requiere más personal en faenas congestionadas y tiene un impacto operacional mayor cuando se ejecutan elementos complejos.
+
+\subsubsection*{Situaciones donde el HAC es más ventajoso}
+
+El uso de HAC es especialmente recomendable en elementos con alta congestión de armaduras, como muros estructurales delgados, pilares confinados y zonas de acoplamiento en edificios en altura, donde el hormigón tradicional presenta alto riesgo de segregación o compactación deficiente. También es ventajoso en elementos arquitectónicos o estructurales donde se requieren altas exigencias de acabado superficial, tales como muros a la vista, placas delgadas o elementos prefabricados con geometrías irregulares, debido a su excelente capacidad de llenado y mínima necesidad de retrabajo.
+
+\subsubsection*{Situación donde el HAC no es recomendable}
+
+El uso de HAC no resulta económicamente justificable en elementos masivos, de baja complejidad geométrica y con armaduras poco congestionadas, como fundaciones corridas, bloques masivos o losas de baja exigencia. En estos casos, el costo extra del HAC no genera ganancias significativas en productividad ni en calidad final, ya que el hormigón tradicional puede compactarse adecuadamente con vibrado convencional y a un costo mucho menor por metro cúbico.
+
+
+\subsection*{Pregunta 4}
+
+\subsection*{Pregunta 5}
+
+Los morteros de reparación de MC Bauchemie están formulados para restituir secciones dañadas de hormigón. Se caracterizan por su alta adherencia al sustrato, baja retracción, buena trabajabilidad y compatibilidad mecánica con el hormigón existente. Se aplican manualmente o proyectados en capas, permitiendo reconstruir geometrías y recuperar capacidad estructural.
+
+El grout es un material fluido o semifluido, sin retracción y de alta capacidad de relleno, diseñado para ocupar vacíos confinados y asegurar una correcta transmisión de cargas. Presenta altas resistencias iniciales, buena fluidez y excelente comportamiento en rellenos bajo placas base, anclajes o maquinaria.
+
+\subsubsection*{Funciones y propiedades principales}
+
+Los morteros de reparación restauran superficies deterioradas, recubrimientos de armaduras y desprendimientos localizados, trabajando bien en vertical y sobre cabeza. En cambio, los grout se utilizan donde se requiere un flujo continuo y completo del material, especialmente en zonas donde la compactación mecánica no es posible.
+
+\subsubsection*{Ejemplos de uso en obra}
+
+Se recomienda mortero de reparación para reparar bordes de losas, columnas dañadas, recubrimientos corroídos o superficies con desprendimientos. El grout es más adecuado para rellenar placas base de estructuras metálicas, nivelar y anclar equipos, fijar pernos, rellenar pedestales o vacíos estrechos.
+
+
+
+\newpage
+\section*{Referencias}
+[1] ACI Committee 237. Self-Consolidating Concrete (ACI 237R-07). 
+    American Concrete Institute, Farmington Hills, MI, 2007.
+\end{document}
