@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.8.8)  15 NOV 2025 15:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.8.8)  17 NOV 2025 11:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -965,19 +965,19 @@ Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 217.
 
 File: LOGO_UNIVERSIDAD.jpg Graphic file (type jpg)
 <use LOGO_UNIVERSIDAD.jpg>
-Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 238.
+Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 237.
 (pdftex.def)             Requested size: 110.8946pt x 40.20973pt.
 [5]
 
 File: LOGO_UNIVERSIDAD.jpg Graphic file (type jpg)
 <use LOGO_UNIVERSIDAD.jpg>
-Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 247.
+Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 244.
 (pdftex.def)             Requested size: 110.8946pt x 40.20973pt.
 [6]
 
 File: LOGO_UNIVERSIDAD.jpg Graphic file (type jpg)
 <use LOGO_UNIVERSIDAD.jpg>
-Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 251.
+Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 248.
 (pdftex.def)             Requested size: 110.8946pt x 40.20973pt.
 [7] (Taller_4_Caprile.aux
 LaTeX Info: Redefining \. on input line 15.
@@ -993,13 +993,13 @@ Package rerunfilecheck Info: File `Taller_4_Caprile.out' has not changed.
 Here is how much of TeX's memory you used:
  29104 strings out of 473899
  537696 string characters out of 5726501
- 1937960 words of memory out of 5000000
+ 1936960 words of memory out of 5000000
  51285 multiletter control sequences out of 15000+600000
  599888 words of font info for 204 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,16n,87p,1635b,519s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/pedro/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/pedro/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/pedro/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/pedro/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Taller_4_Caprile.pdf (8 pages, 358775 bytes).
+Output written on Taller_4_Caprile.pdf (8 pages, 358460 bytes).
 PDF statistics:
  88 PDF objects out of 1000 (max. 8388607)
  11 named destinations out of 1000 (max. 500000)
