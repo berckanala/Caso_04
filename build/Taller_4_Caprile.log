@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.1.16)  14 NOV 2025 21:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.1.16)  17 NOV 2025 12:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -908,7 +908,7 @@ Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 119.
 [1
 
 {C:/Users/HP/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./LOGO_UNIVERSIDAD.jpg>]
-LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 150.
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 151.
  (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
@@ -916,54 +916,69 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `ztmcm' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 150.
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 151.
  (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 150.
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 151.
  (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 150.
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 151.
  (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 150.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 151.
  (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 150.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 151.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 150.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 151.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 150.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 151.
 <Tabla4.2.1.png, id=20, 605.26125pt x 373.395pt>
 File: Tabla4.2.1.png Graphic file (type png)
 <use Tabla4.2.1.png>
-Package pdftex.def Info: Tabla4.2.1.png  used on input line 162.
+Package pdftex.def Info: Tabla4.2.1.png  used on input line 163.
 (pdftex.def)             Requested size: 266.14978pt x 164.19174pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.173 
+l.174 
        [1 <./Tabla4.2.1.png>]
 File: LOGO_UNIVERSIDAD.jpg Graphic file (type jpg)
 <use LOGO_UNIVERSIDAD.jpg>
-Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 194.
+Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 191.
 (pdftex.def)             Requested size: 110.8946pt x 40.20973pt.
  [2]
 File: LOGO_UNIVERSIDAD.jpg Graphic file (type jpg)
 <use LOGO_UNIVERSIDAD.jpg>
-Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 218.
+Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 205.
 (pdftex.def)             Requested size: 110.8946pt x 40.20973pt.
  [3]
 File: LOGO_UNIVERSIDAD.jpg Graphic file (type jpg)
 <use LOGO_UNIVERSIDAD.jpg>
-Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 222.
+Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 218.
 (pdftex.def)             Requested size: 110.8946pt x 40.20973pt.
- [4] (C:\Users\HP\Desktop\Uandes\10mo_semestre\01-Tecnología del hormigón\Caso_04\build\Taller_4_Caprile.aux
+ [4]
+File: LOGO_UNIVERSIDAD.jpg Graphic file (type jpg)
+<use LOGO_UNIVERSIDAD.jpg>
+Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 236.
+(pdftex.def)             Requested size: 110.8946pt x 40.20973pt.
+ [5]
+File: LOGO_UNIVERSIDAD.jpg Graphic file (type jpg)
+<use LOGO_UNIVERSIDAD.jpg>
+Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 245.
+(pdftex.def)             Requested size: 110.8946pt x 40.20973pt.
+ [6]
+File: LOGO_UNIVERSIDAD.jpg Graphic file (type jpg)
+<use LOGO_UNIVERSIDAD.jpg>
+Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 249.
+(pdftex.def)             Requested size: 110.8946pt x 40.20973pt.
+ [7] (C:\Users\HP\Desktop\Uandes\10mo_semestre\01-Tecnología del hormigón\Caso_04\build\Taller_4_Caprile.aux
 LaTeX Info: Redefining \. on input line 15.
 LaTeX Info: Redefining \% on input line 15.
 )
@@ -975,17 +990,17 @@ Package rerunfilecheck Info: File `Taller_4_Caprile.out' has not changed.
 (rerunfilecheck)             Checksum: F794A290FD3FAC182FF41683F46CD4BB;93.
  ) 
 Here is how much of TeX's memory you used:
- 29114 strings out of 474485
- 539322 string characters out of 5745150
- 1934542 words of memory out of 5000000
- 50794 multiletter control sequences out of 15000+600000
- 590587 words of font info for 147 fonts, out of 8000000 for 9000
+ 29203 strings out of 474485
+ 540123 string characters out of 5745150
+ 1936542 words of memory out of 5000000
+ 50797 multiletter control sequences out of 15000+600000
+ 599888 words of font info for 204 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,16n,87p,1225b,519s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
-Output written on "C:\Users\HP\Desktop\Uandes\10mo_semestre\01-Tecnología del hormigón\Caso_04\build\Taller_4_Caprile.pdf" (5 pages, 323598 bytes).
+ 84i,16n,87p,1634b,519s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on "C:\Users\HP\Desktop\Uandes\10mo_semestre\01-Tecnología del hormigón\Caso_04\build\Taller_4_Caprile.pdf" (8 pages, 358529 bytes).
 PDF statistics:
- 61 PDF objects out of 1000 (max. 8388607)
- 8 named destinations out of 1000 (max. 500000)
- 40485 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 88 PDF objects out of 1000 (max. 8388607)
+ 11 named destinations out of 1000 (max. 500000)
+ 44581 words of extra memory for PDF output out of 51595 (max. 10000000)
 
